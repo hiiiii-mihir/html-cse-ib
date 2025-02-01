@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Trainer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            background-image: url('https://plus.unsplash.com/premium_photo-1661920538067-c48451160c72?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3ltfGVufDB8fDB8fHww');
+            background-size: cover;
+            background-position: center;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.6);
+            color: white;
+            text-align: center;
+            padding: 40px;
+            animation: fadeIn 2s ease-in;
+        }
+        nav {
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 10px;
+            text-align: center;
+            animation: slideDown 1.5s ease-out;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .trainer, .services, .testimonials, .contact, .owner, .workout-gallery {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            margin: 20px auto;
+            width: 80%;
+            border-radius: 10px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            animation: fadeInUp 1.5s ease-in-out;
+        }
+        .trainer img, .services img, .workout-gallery img, .testimonials img, .owner img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .trainer img:hover, .services img:hover, .workout-gallery img:hover, .testimonials img:hover, .owner img:hover {
+            transform: scale(1.05);
+        }
+        .workout-gallery a, .testimonials a, .contact a, .owner a {
+            display: inline-block;
+            margin: 10px;
+        }
+        footer {
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fitness Trainer</h1>
+        <p>Achieve Your Fitness Goals with Professional Guidance</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="trainer">
+            <h2>Trainer's Profile</h2>
+            <img src="https://thumbs.dreamstime.com/b/gym-trainer-motivating-client-professional-to-lift-dumbbell-47295799.jpg" alt="trainer image" >
+            <p>Certified fitness trainer with years of experience. Achievements include multiple fitness awards and specialized training certifications.</p>
+        </div>
+        <div class="services">
+            <h2>Workout Programs</h2>
+            <img src="https://www.nourishmovelove.com/wp-content/uploads/2024/11/BeginnerCalendar_5Days-1024x791.jpg" alt="workout image">
+            <p>We offer personal training, group fitness classes, and nutrition guidance to help you achieve your goals.</p>
+        </div>
+        <div class="workout-gallery">
+            <h2>Workout Gallery</h2>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYuxE33OSPD3KFEO93O6U-p6f5lBZ1Sd3aZg&s" alt="workout image 2"></a>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ2wbFE71-fRsbBdj_svU25tJsE_-MOVEdEQ&s" alt="workout image 1"></a>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0vOF4rYiSaxAPEMu6j3IKTPRHvFl27maRQQ&s" alt="workout image 3"></a>
+
+        <div class="testimonials">
+            <h2>Client Testimonials</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbJbpz7y_YMrgAeLHql6up6Yy3egZn_DIXEQ&s" alt="client testimonial"></a>
+            <p>"The best fitness trainer ever! Helped me achieve my fitness goals in no 
+         time." - John Doe</p>
+            <p>"Amazing programs and great motivation!" - Jane Smith</p>
+        </div>
+        <div class="contact">
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9gUicrCHVex2EIZ2qweRuas0zHkv4edXi5w&s" width="100" height="100" alt="contact us">
+            <p>Email: contact@fitnesstrainer.com</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>Follow us on: <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a></p>
+        </div>
+        <div class="owner">
+            <h2>Meet the Owner</h2>
+            <a href="https://example.com/owner.jpg" target="_blank"><img src="https://example.com/owner.jpg" alt="owner image"></a>
+            <p>Hi, I'm mihir patel, the founder of Fitness Trainer. With a passion for health and wellness, my goal is to help individuals achieve their fitness dreams through expert training and motivation.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Fitness Trainer. All rights reserved.</p>
+    </footer>
+</body>
+</html>
